@@ -3,8 +3,12 @@
     padding: 0;
 }
 
+body{
+    font-family: "Poppins", sans-serif;
+}
+
 .cabecalho {
-    background-color: #1d2755;
+    background-color: #1e3597;
     color: white;
     display: flex;
     justify-content: space-around;
@@ -20,4 +24,51 @@
     display: inline-block;
     margin: 0 16px;
     font-size: 24px;
+}
+
+.aranha-imagem{
+    width: 25%;
+}
+
+.escola{
+    background-image: linear-gradient(#1e3597,#7d8aca);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 24px 0;
+}
+
+.escola-div-conteudo{
+    width: 35%;
+}
+.escola-titulo{
+    padding: 24px 0;
+}
+
+.personagem-imagem{
+    width: 300px;
+}
+
+.personagem-div{
+    text-align: center;
+}
+
+.personagens-titulo{
+    text-align: center;
+    padding: 50px 0;
+}
+
+.personagens-todos{
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20%;
+}
+
+.rodape{
+    background-color: brown;
+}
+
+.rodape-imagem{
+    height: 200px;
+    padding: 12px 0;
 }
